@@ -1,0 +1,28 @@
+{
+  "name": "get-missing-env-vars",
+  "version": "1.0.0",
+  "description": "Returns an array of missing environment variables",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha src/*spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rmtsrc/get-missing-env-vars.git"
+  },
+  "keywords": [
+    "missing",
+    "environment",
+    "variables"
+  ],
+  "author": "rmt/src",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmtsrc/get-missing-env-vars/issues"
+  },
+  "homepage": "https://github.com/rmtsrc/get-missing-env-vars#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
